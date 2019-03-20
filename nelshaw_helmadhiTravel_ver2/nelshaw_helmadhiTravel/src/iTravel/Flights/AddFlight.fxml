@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="515.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iTravel.Flights.AddFlightController">
+   <children>
+      <Label layoutX="196.0" layoutY="22.0" text="Add Flight">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="65.0" text="Flight Number" />
+      <Label layoutX="52.0" layoutY="95.0" text="Aircraft" />
+      <Label layoutX="47.0" layoutY="134.0" text="Departure Details" />
+      <Label layoutX="104.0" layoutY="165.0" text="Location " />
+      <Label layoutX="107.0" layoutY="228.0" text="Time" />
+      <Label layoutX="52.0" layoutY="266.0" text="Arrival Details" />
+      <Label layoutX="102.0" layoutY="293.0" text="Location" />
+      <Label layoutX="107.0" layoutY="353.0" text="Time" />
+      <DatePicker fx:id="ddate" layoutX="164.0" layoutY="194.0" />
+      <DatePicker fx:id="adate" layoutX="164.0" layoutY="320.0" prefHeight="17.0" prefWidth="194.0" />
+      <Label layoutX="108.0" layoutY="324.0" text="Date" />
+      <Label layoutX="108.0" layoutY="198.0" text="Date" />
+      <TextField fx:id="dtime" layoutX="164.0" layoutY="224.0" />
+      <TextField fx:id="dlocation" layoutX="164.0" layoutY="161.0" />
+      <TextField fx:id="alocation" layoutX="164.0" layoutY="289.0" />
+      <TextField fx:id="atime" layoutX="164.0" layoutY="349.0" />
+      <TextField fx:id="flightNum" layoutX="164.0" layoutY="60.0" />
+      <ComboBox fx:id="aircraftCombo" layoutX="164.0" layoutY="90.0" prefHeight="27.0" prefWidth="167.0" />
+      <Button fx:id="cancelButton" layoutX="222.0" layoutY="476.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Button fx:id="saveButton" layoutX="318.0" layoutY="476.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <TextField fx:id="bFare" layoutX="164.0" layoutY="390.0" />
+      <TextField fx:id="eFare" layoutX="164.0" layoutY="424.0" />
+      <Label layoutX="39.0" layoutY="394.0" text="Business Class Fare" />
+      <Label layoutX="38.0" layoutY="428.0" text="Executive Class Fare" />
+   </children>
+</AnchorPane>

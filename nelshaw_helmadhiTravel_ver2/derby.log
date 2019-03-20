@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Nov 23 11:11:23 EST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0167-4157-0d70-0000074d5258 
+on database directory C:\Users\Nadeen Elshawish\Documents\intelliJ\nelshaw_helmadhiTravel_ver2\iTravelDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_181/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=C:\Users\Nadeen Elshawish\Documents\intelliJ\nelshaw_helmadhiTravel_ver2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
